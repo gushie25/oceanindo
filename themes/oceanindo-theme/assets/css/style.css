@@ -669,7 +669,7 @@ ul.top-info li p.info-text {
 
 .header-one,
 .header-one .site-navigation {
-  background: #23282d;
+  background: #E11D23;
 }
 
 .header-one .navbar-collapse {
@@ -736,7 +736,7 @@ ul.navbar-nav > li.active > a {
 /*-- Logo --*/
 .logo img {
   width: auto;
-  height: 35px;
+  height: auto;
 }
 
 .header-two .logo img {

@@ -1,12 +1,8 @@
-==
-
-==
-==
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ this.page.title }} - Oceanindo</title>
+  <title>{{ this.page.title }} PT. Oceanindo Prima Sarana</title>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Oceanindo Corporate Website">
@@ -33,13 +29,15 @@
     <div id="top-bar" class="top-bar">
         <div class="container">
           <div class="row">
-              <div class="col-lg-8 col-md-8">
+              <!--div class="col-lg-8 col-md-8">
                 <ul class="top-info text-center text-md-left">
                     <li><i class="fas fa-map-marker-alt"></i> <p class="info-text">Jakarta, Indonesia</p></li>
                 </ul>
-              </div>
-  
-              <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
+              </div-->
+             <div class="col-12 text-center">
+                  <b>Broadening the Horizon of Shipping Services</b>
+             </div>
+              <!--div class="col-lg-4 col-md-4 top-social text-center text-md-right">
                 <ul class="list-unstyled">
                     <li>
                       <a title="Facebook" href="#!"><span class="social-icon"><i class="fab fa-facebook-f"></i></span></a>
@@ -48,7 +46,7 @@
                       <a title="Linkedin" href="#!"><span class="social-icon"><i class="fab fa-linkedin"></i></span></a>
                     </li>
                 </ul>
-              </div>
+              </div-->
           </div>
         </div>
     </div>
@@ -102,29 +100,42 @@
       </div>
 
       <!-- Main Navigation Menu -->
-      <div class="site-navigation">
-        <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                  <nav class="navbar navbar-expand-lg navbar-dark p-0">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+<div class="site-navigation">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div id="navbar-collapse" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="{{ '/'|app }}">Home</a></li>
                     
-                    <div id="navbar-collapse" class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav mr-auto">
-                          <li class="nav-item"><a class="nav-link" href="{{ '/'|app }}">Home</a></li>
-                          <li class="nav-item"><a class="nav-link" href="{{ '/about'|app }}">Company</a></li>
-                          <li class="nav-item"><a class="nav-link" href="{{ '/projects'|app }}">Projects</a></li>
-                          <li class="nav-item"><a class="nav-link" href="{{ '/services'|app }}">Services</a></li>
-                          <li class="nav-item"><a class="nav-link" href="{{ '/contact'|app }}">Contact</a></li>
-                        </ul>
-                    </div>
-                  </nav>
+                    <!-- Profile Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile <i class="fa fa-angle-down ml-1"></i>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                          <li><a href="{{ '/profile/about-us'|app }}">About Us</a></li>
+                          <li><a href="{{ '/profile/our-clients'|app }}">Our Clients</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="{{ '/projects'|app }}">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/services'|app }}">Fleet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/services'|app }}">QHSE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/services'|app }}">Career</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/services'|app }}">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/contact'|app }}">Contact</a></li>
+                  </ul>
               </div>
-            </div>
+            </nav>
         </div>
       </div>
+  </div>
+</div>
     </header>
 
     <!-- ========================================================= -->
