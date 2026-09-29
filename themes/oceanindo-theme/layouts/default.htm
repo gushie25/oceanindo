@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ this.page.title }} PT. Oceanindo Prima Sarana</title>
+  <title>{{ this.page.title }} - PT. Oceanindo Prima Sarana</title>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Oceanindo Corporate Website">
@@ -115,7 +115,8 @@
                     
                     <!-- Profile Dropdown -->
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile <i class="fa fa-angle-down ml-1"></i>
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile 
+                        <i class="fa fa-angle-down ml-1"></i>
                       </a>
                       <ul class="dropdown-menu" role="menu">
                           <li><a href="{{ '/profile/about-us'|app }}">About Us</a></li>
@@ -123,11 +124,59 @@
                       </ul>
                     </li>
 
-                    <li class="nav-item"><a class="nav-link" href="{{ '/projects'|app }}">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ '/services'|app }}">Fleet</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ '/services'|app }}">QHSE</a></li>
+                    <!-- Services Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services 
+                        <i class="fa fa-angle-down ml-1"></i>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                          <li><a href="{{ '/services/shipping-agency'|app }}">Shipping Agency</a></li>
+                          <li><a href="{{ '/services/chartering'|app }}">Chartering</a></li>
+                          <li><a href="{{ '/services/ship-management'|app }}">Ship Management</a></li>
+                          <li><a href="{{ '/services/marlin-english-test'|app }}">Marlin English Test</a></li>
+                      </ul>
+                    </li>
+                    
+                    <!-- Fleet Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fleet 
+                        <i class="fa fa-angle-down ml-1"></i>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                          <li><a href="{{ '/fleet/ops-andra'|app }}">OPS Andra</a></li>
+                          <li><a href="{{ '/fleet/ops-avior'|app }}">OPS Avior</a></li>
+                          <li><a href="{{ '/fleet/ops-aora'|app }}">OPS Aora</a></li>
+                          <li><a href="{{ '/fleet/op-astrid'|app }}">OPS Astrid</a></li>
+                          <li><a href="{{ '/fleet/op-aqeela'|app }}">OPS Aqeela</a></li>
+                          <li><a href="{{ '/fleet/op-alhena'|app }}">OPS Alhena</a></li>
+                          <li><a href="{{ '/fleet/op-alnair'|app }}">OPS Alnair</a></li>
+                      </ul>
+                    </li>
+                    
+                    <!-- QHSE Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">QHSE 
+                        <i class="fa fa-angle-down ml-1"></i>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                          <li><a href="{{ '/qhse/iso-certification'|app }}">ISO Certification</a></li>
+                          <li><a href="{{ '/qhse/hse-sustainability'|app }}">HSE and Sustainability</a></li>
+                      </ul>
+                    </li>
+
                     <li class="nav-item"><a class="nav-link" href="{{ '/services'|app }}">Career</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ '/services'|app }}">News</a></li>
+
+                    <!-- News Dropdown -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News 
+                        <i class="fa fa-angle-down ml-1"></i>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                          <li><a href="{{ '/news/news'|app }}">News</a></li>
+                          <li><a href="{{ '/news/gallery-video'|app }}">Gallery Video</a></li>
+                      </ul>
+                    </li>
+
                     <li class="nav-item"><a class="nav-link" href="{{ '/contact'|app }}">Contact</a></li>
                   </ul>
               </div>
